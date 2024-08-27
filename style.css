@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(image/img.jpg); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área do fundo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+}
+
+h1 {
+    margin: 80px;
+    padding:50px;
+    padding-right: 80px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.1); /* Borda com transparência */
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+    background-color: rgba(0, 0, 0, 0.10); /* Cor de fundo com transparência */
+}
+
+form button {
+    padding: 10px 30px;
+    background-color: rgba(51, 51, 51, 0.8); /* Cor de fundo com transparência */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+}
+
+form button:hover {
+    background-color: rgba(85, 85, 85, 0.8); /* Cor de fundo com transparência no hover */
+}
+
+#infoList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#infoList li {
+    border: 1px solid rgba(0, 0, 0, 0.7); /* Borda com transparência */
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Adiciona bordas arredondadas */
+}
+ 
